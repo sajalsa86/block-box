@@ -1,0 +1,163 @@
+.flexible-container {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+h1 {
+
+    background-color: chocolate;
+    width: 400px;
+    height: 350px;
+    border: 20px solid goldenrod;
+    margin-left: 5%;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 40px hotpink;
+    border-radius: 20px;
+}
+
+span {
+    background-color: darkgoldenrod;
+    padding: 0 40px 0 40px;
+    margin-left: 40px;
+
+
+    /*inline html tag a height width margin-top margin-bottom padding-top padding-buttom display-block kaj kore na*/
+}
+
+.display-inline-block span {
+    display: inline-block;
+    background-color: chocolate;
+    width: 33.33%;
+    height: 350px;
+    border: 20px solid goldenrod;
+    margin: 5% 5% 0 5%;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 40px hotpink;
+    border-radius: 20px;
+}
+
+/*inline html tag jokhon cess display: inline-block use kora hoi tokhon inline a thekei block element er moto kaj kore*/
+.div-box {
+
+    background-color: chocolate;
+    border: 20px solid goldenrod;
+    margin: 5%;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 40px hotpink;
+    border-radius: 20px;
+}
+
+.div-box h2 {
+    background-color: chartreuse;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    color: blue;
+    margin: 10px;
+
+
+}
+
+.div-box p {
+    background-color: chartreuse;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    color: blue;
+
+}
+
+.pseudo h1:hover {
+    color: black;
+    font-style: italic;
+}
+
+.input-block input {
+    display: block;
+    margin: 5px;
+}
+
+.input-focus:focus {
+    color: hotpink;
+    border: 2px solid red;
+}
+
+.link-inline-block a {
+    display: inline-block;
+    background-color: cornflowerblue;
+    text-decoration: none;
+    padding: 10px 40px 10px 40px;
+    margin: 10px;
+    border: 5px solid green;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.link-inline-block a:visited {
+    color: greenyellow;
+}
+
+.link-inline-block a:hover {
+    background-color: darkgrey;
+}
+
+.link-inline-block a:focus {
+    border-radius: 30px;
+}
+
+ul li:first-child {
+    background-color: darkgray;
+}
+
+ul li:last-child {
+    background-color: chocolate;
+}
+
+ul li:nth-child(2n) {
+    color: pink;
+    font-size: 40px;
+}
+
+ul li:nth-child(2n+1) {
+    color: blue;
+    font-size: 50px;
+}
+
+ul li::before {
+    content: 'Hello ';
+}
+
+ul li:nth-child(2n+1)::after {
+    content: ' Welcome';
+}
+
+ul li:hover::first-letter {
+    font-size: 100px;
+}
+
+.boy {
+    position: relative;
+    top: 65px;
+    z-index: 2;
+}
+
+.ring {
+    z-index: 1;
+    position: relative;
+}
+
+.water {
+    position: relative;
+    top: -80px;
+
+}
+
+/*.div-box h2,
+p {
+    display: inline;
+}*/
